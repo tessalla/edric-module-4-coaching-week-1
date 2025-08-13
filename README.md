@@ -20,7 +20,6 @@
 
 <img width="1173" height="731" alt="image" src="https://github.com/user-attachments/assets/ddef6765-62f6-4c33-8ed1-43032a4571e1" />
 
-
 ### Stages of DevOps
 
 | Stage        | Description                                         | Common Tools                            |
@@ -124,17 +123,14 @@ Interact with the latest GitHub MCP server via chat and let AI do the magic.
 
 <img width="1225" height="792" alt="image" src="https://github.com/user-attachments/assets/67b1298f-20ce-4b4f-a0bc-faaeb3ed2ee6" />
 
-
 #### GitHub Flow
 
 <img width="1766" height="585" alt="image" src="https://github.com/user-attachments/assets/facf74e9-6410-4b22-b488-fd318ba13c93" />
-
 
 #### Trunk-based Development
 
 <img width="1449" height="768" alt="image" src="https://github.com/user-attachments/assets/97ac90a2-1ca6-4022-95d0-ec0b15f5e9ce" />
 <img width="1424" height="746" alt="image" src="https://github.com/user-attachments/assets/e7b9ac97-9a65-4d18-af7d-3c9f5b85b9ad" />
-
 
 ---
 
@@ -176,13 +172,11 @@ Interact with the latest GitHub MCP server via chat and let AI do the magic.
 | -------------- | ------------------------------------------------- |
 | `git log`      | Show commit logs                                  |
 | `git diff`     | Show changes between commits                      |
-| `git fetch`    | Download objects and refs from another repository |
 | `git pull`     | Fetch and integrate with local branch             |
 | `git remote`   | Manage remote URLs                                |
 | `git branch`   | List/create branches                              |
 | `git checkout` | Switch branches                                   |
 | `git merge`    | Merge changes between branches                    |
-| `git tag`      | Create/list/delete tags                           |
 | `git stash`    | Temporarily remove changes                        |
 | `git rebase`   | Reapply commits on top of another base tip        |
 | `git reset`    | Reset current branch to a specific state          |

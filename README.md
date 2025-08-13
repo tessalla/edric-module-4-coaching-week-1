@@ -43,11 +43,11 @@
 
 ## Case Study: Crowdstrike
 
-**Incident Date:** July 19, 2024
-**Impact:** Faulty configuration update to CrowdStrike Falcon Sensor software caused BSOD on \~8.5 million Windows systems globally, affecting healthcare, aviation, and banking.
-**Financial Losses:** \~\$10 billion
-**Affected Systems:** Windows running Falcon Sensor v7.11+
-**Cause:** Logic error in configuration file → Out-of-bounds memory read due to mismatch in expected vs actual input fields.
+- **Incident Date:** July 19, 2024
+- **Impact:** Faulty configuration update to CrowdStrike Falcon Sensor software caused BSOD on \~8.5 million Windows systems globally, affecting healthcare, aviation, and banking.
+- **Financial Losses:** \~\$10 billion
+- **Affected Systems:** Windows running Falcon Sensor v7.11+
+- **Cause:** Logic error in configuration file → Out-of-bounds memory read due to mismatch in expected vs actual input fields.
 
 ### Root Cause
 

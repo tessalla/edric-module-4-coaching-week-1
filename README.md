@@ -43,13 +43,47 @@
 
 ---
 
-## Case Study: Crowdstrike
+## Case Study: CrowdStrike Incident - The Largest IT Outage in History
 
-- **Incident Date:** July 19, 2024
-- **Impact:** Faulty configuration update to CrowdStrike Falcon Sensor software caused BSOD on \~8.5 million Windows systems globally, affecting healthcare, aviation, and banking.
-- **Financial Losses:** \~\$10 billion
-- **Affected Systems:** Windows running Falcon Sensor v7.11+
-- **Cause:** Logic error in configuration file → Out-of-bounds memory read due to mismatch in expected vs actual input fields.
+### What Happened
+On July 19, 2024, CrowdStrike released a faulty configuration update (Channel File 291) that caused widespread crashes of Windows systems running their Falcon security software, resulting in the largest IT outage in history.
+
+### Timeline of Events
+
+**July 19, 2024:**
+- **04:09 UTC** - CrowdStrike released problematic sensor configuration update
+- **05:27 UTC** - CrowdStrike identified issue and reverted changes (too late)
+- **06:48 UTC** - Azure and Google Cloud platforms reported widespread system crashes
+
+**Recovery Period:**
+- **July 19-22** - Manual remediation required (deleting faulty .sys files)
+- **July 29** - 99% of affected systems back online
+
+### Impact Scale
+- **8.5 million devices** affected globally
+- **5,078 flights** canceled (4.6% of scheduled flights)
+- **$5+ billion** in estimated losses
+- **$1.5 billion** in insurance payouts
+- Disrupted airlines, healthcare, financial services, and critical infrastructure
+
+### Technical Details
+- **Affected Systems:** Windows 10/11 running CrowdStrike Falcon software
+- **Unaffected:** macOS and Linux systems
+- **Cause:** Logic error in configuration file → Out-of-bounds memory read due to mismatch in expected vs actual input fields (21 fields provided vs 20 expected)
+
+### Aftermath and Response
+
+**Company Response:**
+- **July 24, 2024** - CrowdStrike published Post-Incident Review
+- **August 6, 2024** - Published Root Cause Analysis with mitigation steps
+
+**Legal Consequences:**
+- **October 2024** - Delta Air Lines filed $500 million lawsuit alleging gross negligence and breach of contract
+
+**Industry Impact:**
+- Called the "largest IT outage in history" by cybersecurity experts
+- Highlighted risks of single-vendor dependency in critical infrastructure
+- Prompted industry-wide discussions about software testing and deployment practices
 
 ### Root Cause
 

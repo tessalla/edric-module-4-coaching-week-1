@@ -102,7 +102,7 @@ On July 19, 2024, CrowdStrike released a faulty configuration update (Channel Fi
 | **Test**     | Add edge case, invalid input, and backward compatibility testing. Include automated regression testing for kernel-level components. |
 | **Release**  | Use gated releases with automated verification steps before approval.                                                               |
 | **Deploy**   | Implement canary or blue-green deployments. First deploy to staging with production-like load testing.                              |
-| **Operate**  | Introduce feature flags to quickly disable faulty updates. Maintain rapid rollback playbooks.                                       |
+| **Operate**  | Introduce feature flags(essentially if-else implementations) to quickly disable faulty updates. Maintain rapid rollback playbooks.                                       |
 | **Monitor**  | Set up real-time monitoring for crash spikes post-deployment. Trigger automated rollback when thresholds are breached.              |
 
 ### Other Public Postmortem Reports for Learning
